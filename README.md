@@ -31,7 +31,7 @@ Client EC2 (Amazon Linux)
 - Port 22 allowed between servers
 
 ---
-
+![screenshot](./screenshot/1.png)
 ## 2️⃣ Install Required Packages (Both Servers)
 ```bash
 sudo yum update -y
@@ -117,7 +117,7 @@ chmod +x full_backup.sh
 ```
 
 ---
-
+![screenshot](./screenshot/3.png)
 ## 7️⃣ Verify Backup (Backup Server)
 ```bash
 cd /backups/full
@@ -127,7 +127,7 @@ ls -l
 ```
 
 ---
-
+![screenshot](./screenshot/3.png)
 ## 8️⃣ Restore Process (Disaster Recovery)
 
 ### Simulate data loss (Client)
@@ -146,7 +146,7 @@ ls /data
 ```
 
 ---
-
+![screenshot](./screenshot/2.png)
 ## 9️⃣ Cron Automation (Optional)
 
 ### Weekly full backup
